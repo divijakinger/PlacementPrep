@@ -1,4 +1,4 @@
-package com.company.Hashing;
+package com.company.Hashing.CommonCharacters;
 
 import java.util.ArrayList;
 import java.util.HashMap;
