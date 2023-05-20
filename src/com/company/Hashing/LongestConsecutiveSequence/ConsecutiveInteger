@@ -1,0 +1,13 @@
+1. Create an empty HashSet called **`set`** to store unique elements from the given array **`nums`**.
+2. Iterate over each element **`num`** in the array **`nums`**:
+    - Add the current element **`num`** to the **`set`**.
+3. Initialize a variable **`longest`** to 1, representing the length of the longest consecutive sequence found.
+4. Iterate over each element **`i`** in the array **`nums`**:
+    - Check if the previous consecutive number **`i-1`** is not present in the **`set`**:
+        - Initialize **`num`** as **`i`**.
+        - Initialize a variable **`curr`** to 1, representing the current length of the consecutive sequence.
+        - While the next consecutive number **`num+1`** is present in the **`set`**:
+            - Increment **`curr`** by 1.
+            - Increment **`num`** by 1.
+        - Update **`longest`** to the maximum value between **`longest`** and **`curr`**.
+5. Return **`longest`** as the length of the longest consecutive sequence found.
