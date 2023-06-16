@@ -1,0 +1,15 @@
+# Common Chars
+https://leetcode.com/problems/find-common-characters/
+
+1. Initialize a HashMap called **`min_frequency`** to store the minimum frequency of each character from 'a' to 'z'. Set the initial value for each character as 1000.
+2. Iterate over the array of words.
+    - Create a new HashMap called **`curr_frequency`** to store the frequency of characters in the current word.
+    - Iterate over each character in the current word.
+        - Update the frequency of the character in **`curr_frequency`**.
+    - Compare the frequencies of each character in **`curr_frequency`** with the corresponding frequencies in **`min_frequency`**. Update **`min_frequency`** with the minimum value for each character.
+3. Create an empty list called **`ans`** to store the common characters.
+4. Iterate over each character from 'a' to 'z'.
+    - While the frequency of the character in **`min_frequency`** is greater than 0 and less than 1000:
+        - Add the character to the **`ans`** list.
+        - Decrease the frequency of the character in **`min_frequency`** by 1.
+5. Return the **`ans`** list containing the common characters.
