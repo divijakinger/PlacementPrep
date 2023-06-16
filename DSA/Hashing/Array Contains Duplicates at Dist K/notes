@@ -1,0 +1,10 @@
+# Array Contains Duplicates at Dist K
+
+https://leetcode.com/problems/contains-duplicate-ii/description/
+
+1. Create an empty HashSet called **`set`** to store unique elements.
+2. Iterate over the array **`arr`** from index 0 to the end.
+    - If the current element **`arr[i]`** is already present in the **`set`**, return true (indicating the presence of a nearby duplicate).
+    - Add the current element **`arr[i]`** to the **`set`**.
+    - If the current index **`i`** is greater than or equal to **`k`**, remove the element at index **`i - k`** from the **`set`** to maintain a sliding window of size **`k`**.
+3. Return false if no nearby duplicates are found.
