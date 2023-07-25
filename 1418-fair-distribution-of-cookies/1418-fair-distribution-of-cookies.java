@@ -1,21 +1,25 @@
 class Solution {
-    int res = Integer.MAX_VALUE;
+    int ret = Integer.MAX_VALUE;
     public int distributeCookies(int[] cookies, int k) {
-        dfs(cookies, 0, k, new int[k]);
-        return res;
+        assign(cookies, 0, new int[k], 0);
+        return ret;
     }
 
-    void dfs(int[] cookies, int cur, int k, int[] children) {
-        if (cur == cookies.length) {
-            int max = 0;
-            for (int c : children) max = Math.max(max, c);
-            res = Math.min(res, max);
+        private void assign(int[] cookies, int i, int[] distribution, int preMax) {
+        if (i == cookies.length) {
+            ret = Math.min(ret, preMax);
             return;
         }
-        for (int i = 0; i < k; i++) {
-            children[i] += cookies[cur];
-            dfs(cookies, cur + 1, k, children);
-            children[i] -= cookies[cur];
+        
+        Set<Integer> used = new HashSet<>();
+        for (int w = 0; w < distribution.length; w++) {
+            if (!used.add(distribution[w]))
+                continue;
+            if (distribution[w] + cookies[i] > ret)
+                continue;
+            distribution[w] += cookies[i];
+            assign(cookies, i+1, distribution, Math.max(distribution[w], preMax));
+            distribution[w] -= cookies[i];
         }
     }
 }
