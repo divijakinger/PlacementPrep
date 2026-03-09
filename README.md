@@ -25,6 +25,7 @@
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/divijakinger/PlacementPrep/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/divijakinger/PlacementPrep/tree/master/0242-valid-anagram) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/divijakinger/PlacementPrep/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/divijakinger/PlacementPrep/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Binary Search
@@ -43,4 +44,9 @@
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/divijakinger/PlacementPrep/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/divijakinger/PlacementPrep/tree/master/0242-valid-anagram) |
+## String
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/divijakinger/PlacementPrep/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
