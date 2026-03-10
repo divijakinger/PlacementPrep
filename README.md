@@ -8,6 +8,7 @@
 | [0001-two-sum](https://github.com/divijakinger/PlacementPrep/tree/master/0001-two-sum) |
 | [0039-combination-sum](https://github.com/divijakinger/PlacementPrep/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/divijakinger/PlacementPrep/tree/master/0040-combination-sum-ii) |
+| [0049-group-anagrams](https://github.com/divijakinger/PlacementPrep/tree/master/0049-group-anagrams) |
 | [0209-minimum-size-subarray-sum](https://github.com/divijakinger/PlacementPrep/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/divijakinger/PlacementPrep/tree/master/0217-contains-duplicate) |
 | [0416-partition-equal-subset-sum](https://github.com/divijakinger/PlacementPrep/tree/master/0416-partition-equal-subset-sum) |
@@ -26,6 +27,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/divijakinger/PlacementPrep/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/divijakinger/PlacementPrep/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/divijakinger/PlacementPrep/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/divijakinger/PlacementPrep/tree/master/0242-valid-anagram) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/divijakinger/PlacementPrep/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -45,10 +47,12 @@
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/divijakinger/PlacementPrep/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/divijakinger/PlacementPrep/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/divijakinger/PlacementPrep/tree/master/0242-valid-anagram) |
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/divijakinger/PlacementPrep/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/divijakinger/PlacementPrep/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
