@@ -12,6 +12,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/divijakinger/PlacementPrep/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/divijakinger/PlacementPrep/tree/master/0217-contains-duplicate) |
 | [0416-partition-equal-subset-sum](https://github.com/divijakinger/PlacementPrep/tree/master/0416-partition-equal-subset-sum) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/divijakinger/PlacementPrep/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/divijakinger/PlacementPrep/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/divijakinger/PlacementPrep/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Backtracking
@@ -55,4 +56,20 @@
 | ------- |
 | [0049-group-anagrams](https://github.com/divijakinger/PlacementPrep/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/divijakinger/PlacementPrep/tree/master/0242-valid-anagram) |
+## Depth-First Search
+|  |
+| ------- |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/divijakinger/PlacementPrep/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+## Breadth-First Search
+|  |
+| ------- |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/divijakinger/PlacementPrep/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+## Union-Find
+|  |
+| ------- |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/divijakinger/PlacementPrep/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+## Matrix
+|  |
+| ------- |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/divijakinger/PlacementPrep/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 <!---LeetCode Topics End-->
